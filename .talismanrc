@@ -1,0 +1,30 @@
+fileignoreconfig:
+- filename: Assets/Materials/SpacesTown_Main.mat
+  checksum: 6d9afbd3636465b43b98fbe8eb5a662c475ed95376317b1889f75c0a849db1e4
+- filename: Assets/Image Libraries/ReferenceImageLibrary.asset
+  checksum: 343facf3857c5325bbcbc46c7f4af0467a81de7289370e0f3e8f8da8dc89d20d
+- filename: Assets/Materials/StampPoster material.mat
+  checksum: 1c08b28a0b5ca0f98348f79ed6c77ad460c4a56448c0711fb7a98c0286ccadad
+- filename: Assets/Prefabs/AudioPrefab.prefab
+  checksum: 23bc7d21f2b9e8ab4c696c82fcb6ad07051638bc9bc88e2b4f8ba06c55575712
+- filename: Assets/Prefabs/PrefabInstatiater.prefab
+  checksum: af3553a1783d24cc1be24f651966cb151bd42a725a32f3835263b5845cb1fc51
+- filename: Assets/Textures/Video Render Texture.renderTexture.meta
+  checksum: 36618432517b6ea65f58ab1ab65523b50604eb7bfee31fe208a9b73889a871c8
+- filename: Assets/Textures/Stamp.jpeg
+  checksum: 21f2cc11a51b83194fec2ca4a3a160e64942d97b649534e38d42cb8ecc933a82
+- filename: ProjectSettings/EditorBuildSettings.asset
+  checksum: 677c4102b9b9826f9398e9faf5e78bd09dd057f1c954da6eaf85e65245d68784
+- filename: Assets/Textures/StampPoster.png.meta
+  checksum: c6d207d6473115b97f0a1db40119c90a2839b6279f3571444b1980415a80009c
+- filename: Assets/Textures/Food.jpeg
+  checksum: 27c5674313dec6ddfe18395dfdd6c33dd7b36c6410cc4d95f071eebb1c647802
+- filename: Assets/Prefabs/VideoPrefab.prefab
+  checksum: 09a47165007c10f82d0be7f8963349176e3113cd09fcc349b76b48fee90b071d
+- filename: Assets/Samples/Snapdragon Spaces/0.9.0/Core Samples/Shared Assets/Prefabs/Interaction/ControllerManager.prefab
+  checksum: 6e307c6c4b1841d30400b2eef8ad10e88bee6ca73407102e3456dc31345acc3c
+- filename: Assets/Scripts/TrackedImageActionController.cs
+  checksum: 8bdcd33aae2394562effda79d7a3e17d52f5d21a91a7f759d2e43ed0c27197dd
+- filename: Assets/Textures/SpacesTown_Albedo.png
+  checksum: 86419a486571975bc7e3853626488841c79456a8c068e70a071d297ed034267a
+version: ""

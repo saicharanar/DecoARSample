@@ -30,15 +30,9 @@ namespace Qualcomm.Snapdragon.Spaces.Samples
 
         private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs args) {
             foreach (var trackedImage in args.added) {
-                var referenceImageName = trackedImage.referenceImage.name;
-                if (referenceImageName == "SpacesTown")
-                {
-                    ImageTracker.Instance.currentImage = referenceImageName;
-                }
-                if (referenceImageName == "Earth")
-                {
-                    ImageTracker.Instance.currentImage = referenceImageName;
-                }
+                Debug.Log("Sourav :: tracked " + trackedImage.referenceImage.name);
+                ImageTracker.Instance.currentImage = trackedImage.referenceImage.name;
+                ImageTracker.Instance.currentImageSize = trackedImage.referenceImage.size;
             }
         }
     }

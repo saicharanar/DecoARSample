@@ -33,7 +33,37 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10698922923964263552
       m_GuidHigh: 7881505540154270395
-    m_Size: {x: 0.1, y: 0.10011124}
+    m_Size: {x: 0.2597111, y: 0.26}
     m_SpecifySize: 1
     m_Name: Earth
     m_Texture: {fileID: 2800000, guid: ca2c6c8035b6947abb222be087bb606d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5162562032508181993
+      m_GuidHigh: 1691836875532971942
+    m_SerializedTextureGuid:
+      m_GuidLow: 17616804089506450549
+      m_GuidHigh: 6268019406799637064
+    m_Size: {x: 0.29, y: 0.16289844}
+    m_SpecifySize: 1
+    m_Name: StampPoster
+    m_Texture: {fileID: 2800000, guid: 48ae4c7575fbf47b480a8ceb707afc56, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5511138170796169803
+      m_GuidHigh: 7930146622255580080
+    m_SerializedTextureGuid:
+      m_GuidLow: 2626522284386778535
+      m_GuidHigh: 13788299457538630571
+    m_Size: {x: 0.15, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: Food
+    m_Texture: {fileID: 2800000, guid: 0b857da7481a2473ab234d974de159bf, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5435884731674839268
+      m_GuidHigh: 7506110217518527666
+    m_SerializedTextureGuid:
+      m_GuidLow: 17606593903138265843
+      m_GuidHigh: 16622010965242346393
+    m_Size: {x: 0.18836601, y: 0.22}
+    m_SpecifySize: 1
+    m_Name: Stamp
+    m_Texture: {fileID: 2800000, guid: 051d5af32fdff45799fbeadbe73eade6, type: 3}

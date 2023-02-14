@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33899348504932846}
   - component: {fileID: 23543398423538944}
   m_Layer: 0
-  m_Name: ImagePrefab
+  m_Name: Augmentation Spaces Town
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681375557185886}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.001, z: 0}
   m_LocalScale: {x: 0.01837, y: 1, z: 0.026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be8ba785b82bb4b4d9073c8014a93b9b, type: 2}
+  - {fileID: 2100000, guid: d12d6af637f22e7458eb2a35ee8abe24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

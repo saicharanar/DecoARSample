@@ -14,6 +14,7 @@ public class TrackedImageController : MonoBehaviour
     }
 
     [SerializeField] private List<Mapper> images;
+    
     private GameObject _instancedPrefab;
 
     private void Start()
@@ -24,7 +25,7 @@ public class TrackedImageController : MonoBehaviour
     private void OnEnable()
     {
         _instancedPrefab = new GameObject();
-        Debug.Log("ImageTracked Enabled");
+        Debug.Log("Sourav :: OnEnabled " + ImageTracker.Instance.currentImage);
         StartCoroutine(InstancePrefab());
     }
     
@@ -40,12 +41,5 @@ public class TrackedImageController : MonoBehaviour
         GameObject prefab  = images.Find(img => img.name.Equals(prefabName)).prefab;
         _instancedPrefab = Instantiate(prefab, gameObject.transform.position, prefab.transform.rotation);
         _instancedPrefab.transform.parent = gameObject.transform;
-        // if (_instancedPrefab.GetChildGameObjects() is not null) {
-        //     var height = -0.0989f;
-        //     var width = -0.14f;
-        //     _instancedPrefab.transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
-        //     _instancedPrefab.transform.position = new Vector3(height, width);
-        //
-        // }
     }
 }
