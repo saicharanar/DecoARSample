@@ -28,3 +28,8 @@ fileignoreconfig:
 - filename: Assets/Textures/SpacesTown_Albedo.png
   checksum: 86419a486571975bc7e3853626488841c79456a8c068e70a071d297ed034267a
 version: ""
+
+fileignoreconfig:
+- filename: Assets/Scenes/DecoAR.unity
+  checksum: 3ffb10a45bdfd8cbc16de46b1f0eaa5694cf438345f8be609f8ede6b42f7829a
+version: ""
