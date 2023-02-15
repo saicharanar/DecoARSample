@@ -44,17 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51280513296b14f62a1cb76eb7d0256d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - name: SpacesTown
-    prefab: {fileID: 1681375557185886, guid: 96463e5ac54caf743ac3bef485cbd6c1, type: 3}
-  - name: Earth
-    prefab: {fileID: 3569865659890884728, guid: 3a98711e0d9fd4fbf8f026ef867f39a0,
+  ImagesWithAction:
+  - imageName: SpacesTown
+    actionPrefab: {fileID: 1681375557185886, guid: 8dff77ee6cd184f12b4806e8197998b3,
       type: 3}
-  - name: Stamp
-    prefab: {fileID: 9052500935952479553, guid: fada3d68dc4b14ef9a16dbe7b264a952,
-      type: 3}
-  - name: Food
-    prefab: {fileID: 1874147800829965421, guid: dd7300d43701346728ad8980416060c3,
-      type: 3}
-  - name: StampPoster
-    prefab: {fileID: 1681375557185886, guid: 89a02ef6e054f4953b91b9254e4ef4c3, type: 3}

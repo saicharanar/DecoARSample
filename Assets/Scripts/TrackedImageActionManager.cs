@@ -10,8 +10,8 @@ public class TrackedImageActionManager : MonoBehaviour
     [Serializable]
     private class Mapper
     {
-        public string name;
-        public GameObject prefab;
+        public string imageName;
+        public GameObject actionPrefab;
     }
 
     [SerializeField] private List<Mapper> ImagesWithAction;
@@ -39,7 +39,7 @@ public class TrackedImageActionManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         var prefabName = ImageTracker.Instance.currentImage;
-        GameObject actionPrefab  = ImagesWithAction.Find(img => img.name.Equals(prefabName)).prefab;
+        GameObject actionPrefab  = ImagesWithAction.Find(img => img.imageName.Equals(prefabName)).actionPrefab;
         _instancedPrefab = Instantiate(actionPrefab, gameObject.transform.position, actionPrefab.transform.rotation);
         _instancedPrefab.transform.parent = gameObject.transform;
     }

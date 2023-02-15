@@ -40,15 +40,16 @@ Here are steps user need to do.
 ## Setup Data for tracking
 
 #### Collect Images
-- Get the images that you want to track.
-- Drag and drop the images in the Unity project under Assets/Texture folder. Create the folder if it is missing.
+- Get the images(JPG/JPEG/PNG) that you want to track.
+- Take printout and stick it to the wall.
+- Drag and drop the image files in the Unity project under `Assets/Texture` folder.
 
 #### Updating image settings
 - Click on the Image to view it on Inspect window
-- Choose texture type "Sprite (2D and UI)"
-- Choose Sprite mode "Single"
-- Check the checkbox for "Alpha is transparency" and "Read/Write" both
-- Choose the Wrap mode as "Clamp"
+- Choose `texture type` as `Sprite (2D and UI)`
+- Choose `Sprite mode` as `Single`
+- Check the checkbox for `Alpha is transparency` and `Read/Write` both
+- Choose the `Wrap mode` as `Clamp`
 - Click on Apply to apply all the changes we made.
 - Apply same settings for all the images you want to track.
 
@@ -65,15 +66,19 @@ Here are steps user need to do.
 #### Add the Action for a specific image
 - Locate the Prefab called `PrefabInstatiater` Under `Assets/Prefabs` folder.
 - Open it in Inspector window. It should have `Tracked Image Action Manager` script attached to it. Expand the `Images With Action` field.
-- To an action for the image you just added, Click on the Plus, Then give the image name(same as image name in Texture) and the [prefab](#creating-an-action-prefab) as action.
+- To an action for the image, click on the `Plus` icon, then give the image name(same image name as in Texture) and the new [prefab](#creating-an-action-prefab) as an action prefab.
 - Thats's all.
 
 #### Creating an action prefab
 For all Types of Action we have already create a demo prefab.
+
 If you want a new prefab, then just Copy the demo prefab and then change the image/video/audio inside the copied prefab.
-For 3D model, Dont need to create any extra prefab. Provide the 3D model directly.
+
+For 3D model, you don't need to create any extra prefab. Provide the 3D model directly.
 
 ## Build and Run
-TODO
+- Open the `Build settings` in unity.
+- Change the build target to android.
+- Do a clean build and install in the phone to run it.
 
 ## Demo 

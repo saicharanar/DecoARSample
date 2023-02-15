@@ -33,3 +33,9 @@ fileignoreconfig:
 - filename: Assets/Scenes/DecoAR.unity
   checksum: 3ffb10a45bdfd8cbc16de46b1f0eaa5694cf438345f8be609f8ede6b42f7829a
 version: ""
+
+
+fileignoreconfig:
+- filename: Assets/Prefabs/PrefabInstatiater.prefab
+  checksum: 8b251a51688b89aaae809fd7f4eb1c2e2d0fc47b9fcc4f8ee62f4d050adc74bd
+version: ""
