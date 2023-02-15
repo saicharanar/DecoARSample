@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.XR.CoreUtils;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class TrackedImageController : MonoBehaviour
+public class TrackedImageActionManager : MonoBehaviour
 {
     [Serializable]
     private class Mapper
@@ -13,7 +14,7 @@ public class TrackedImageController : MonoBehaviour
         public GameObject prefab;
     }
 
-    [SerializeField] private List<Mapper> images;
+    [SerializeField] private List<Mapper> ImagesWithAction;
     
     private GameObject _instancedPrefab;
 
@@ -38,8 +39,8 @@ public class TrackedImageController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         var prefabName = ImageTracker.Instance.currentImage;
-        GameObject prefab  = images.Find(img => img.name.Equals(prefabName)).prefab;
-        _instancedPrefab = Instantiate(prefab, gameObject.transform.position, prefab.transform.rotation);
+        GameObject actionPrefab  = ImagesWithAction.Find(img => img.name.Equals(prefabName)).prefab;
+        _instancedPrefab = Instantiate(actionPrefab, gameObject.transform.position, actionPrefab.transform.rotation);
         _instancedPrefab.transform.parent = gameObject.transform;
     }
 }
