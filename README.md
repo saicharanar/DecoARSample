@@ -29,10 +29,12 @@ Here are steps user need to do.
 #### Setting up the project
 - Clone the repo
 - Open it with Unity editor
-- Open Package Manager from `Window > Package Manager`
-- Click on the plus icon and choose "import from tarball option"
-- Navigate the file that we unzipped and choose the `SnapdragonSpaces_Package_0_9_0.tgz` from the folder to import it
-- After importing click on the Snapdragon Spaces in Package Manager
+- Continue if there is any error like `Package Manager Error` while opening the project for first time
+- Open Package Manager from `Window > Package Manager`.
+- Click on the plus icon and choose "Add PAckage from tarball" option.
+- Navigate the file that we unzipped and choose the `SnapdragonSpaces_Package_0_9_0.tgz` from the folder to import it.
+- Wait until import and compilation are done.
+- After importing click on the Snapdragon Spaces in Package Manager.
 - There you will find samples. Click on Samples and import them. It will be added to the Assets folder.
 
 
